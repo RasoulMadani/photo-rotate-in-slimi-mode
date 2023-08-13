@@ -2,6 +2,13 @@ $num : 0;
 *{
     margin: 0;padding: 0;box-sizing: border-box;
 }
+h2{
+    text-align: center;
+    font-size: 100px;
+    text-transform: capitalize;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: blue;
+}
 main{
     width: 500px;
     height: 500px;
