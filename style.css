@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 500px;
+  height: 500px;
+  margin: 300px auto;
+  position: relative;
+  background-color: aqua;
+  background-image: url(./1579804_963.jpg);
+  border-radius: 50%;
+  z-index: 1000;
+}
+main:hover > div {
+  transform: perspective(800px) rotate(360deg);
+  transform-origin: right;
+  border-radius: 30%;
+}
+main:hover {
+  transform: scale(0.7);
+}
+main > div {
+  position: absolute;
+  z-index: -1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid blue;
+  transition: all 5s;
+  border-radius: 21%;
+}
+main > div:nth-of-type(1) {
+  transition-delay: 0s;
+}
+main > div:nth-of-type(2) {
+  transition-delay: 0.1s;
+}
+main > div:nth-of-type(3) {
+  transition-delay: 0.2s;
+}
+main > div:nth-of-type(4) {
+  transition-delay: 0.3s;
+}
+main > div:nth-of-type(5) {
+  transition-delay: 0.4s;
+}
+main > div:nth-of-type(6) {
+  transition-delay: 0.5s;
+}
+main > div:nth-of-type(7) {
+  transition-delay: 0.6s;
+}
+main > div:nth-of-type(8) {
+  transition-delay: 0.7s;
+}
+main > div:nth-of-type(9) {
+  transition-delay: 0.8s;
+}
+main > div:nth-of-type(10) {
+  transition-delay: 0.9s;
+}
+main > div:nth-of-type(11) {
+  transition-delay: 1s;
+}
+main > div:nth-of-type(12) {
+  transition-delay: 1.1s;
+}
+main > div:nth-of-type(13) {
+  transition-delay: 1.2s;
+}
+main > div:nth-of-type(14) {
+  transition-delay: 1.3s;
+}
+main > div:nth-of-type(15) {
+  transition-delay: 1.4s;
+}
+main > div:nth-of-type(16) {
+  transition-delay: 1.5s;
+}
+main > div:nth-of-type(17) {
+  transition-delay: 1.6s;
+}
+main > div:nth-of-type(18) {
+  transition-delay: 1.7s;
+}
+main > div:nth-of-type(19) {
+  transition-delay: 1.8s;
+}
+main > div:nth-of-type(20) {
+  transition-delay: 1.9s;
+}
+main > div:nth-of-type(21) {
+  transition-delay: 2s;
+}
+main > div:nth-of-type(22) {
+  transition-delay: 2.1s;
+}
+main > div:nth-of-type(23) {
+  transition-delay: 2.2s;
+}
+main > div:nth-of-type(24) {
+  transition-delay: 2.3s;
+}
+main > div:nth-of-type(25) {
+  transition-delay: 2.4s;
+}
+main > div:nth-of-type(26) {
+  transition-delay: 2.5s;
+}
+main > div:nth-of-type(27) {
+  transition-delay: 2.6s;
+}
+main > div:nth-of-type(28) {
+  transition-delay: 2.7s;
+}
+main > div:nth-of-type(29) {
+  transition-delay: 2.8s;
+}
+main > div:nth-of-type(30) {
+  transition-delay: 2.9s;
+}
+main > div:nth-of-type(31) {
+  transition-delay: 3s;
+}
+main > div:nth-of-type(32) {
+  transition-delay: 3.1s;
+}
+main > div:nth-of-type(33) {
+  transition-delay: 3.2s;
+}
+main > div:nth-of-type(34) {
+  transition-delay: 3.3s;
+}
+main > div:nth-of-type(35) {
+  transition-delay: 3.4s;
+}
+main > div:nth-of-type(36) {
+  transition-delay: 3.5s;
+}
+main > div:nth-of-type(37) {
+  transition-delay: 3.6s;
+}
+main > div:nth-of-type(38) {
+  transition-delay: 3.7s;
+}
+main > div:nth-of-type(39) {
+  transition-delay: 3.8s;
+}
+main > div:nth-of-type(40) {
+  transition-delay: 3.9s;
+}
+main > div:nth-of-type(41) {
+  transition-delay: 4s;
+}
+main > div:nth-of-type(42) {
+  transition-delay: 4.1s;
+}
+main > div:nth-of-type(43) {
+  transition-delay: 4.2s;
+}
+main > div:nth-of-type(44) {
+  transition-delay: 4.3s;
+}
+main > div:nth-of-type(45) {
+  transition-delay: 4.4s;
+}
+main > div:nth-of-type(46) {
+  transition-delay: 4.5s;
+}
+main > div:nth-of-type(47) {
+  transition-delay: 4.6s;
+}
+main > div:nth-of-type(48) {
+  transition-delay: 4.7s;
+}
+main > div:nth-of-type(49) {
+  transition-delay: 4.8s;
+}
+main > div:nth-of-type(50) {
+  transition-delay: 4.9s;
+}
+main > div:nth-of-type(51) {
+  transition-delay: 5s;
+}
+main > div:nth-of-type(52) {
+  transition-delay: 5.1s;
+}
+main > div:nth-of-type(53) {
+  transition-delay: 5.2s;
+}
+main > div:nth-of-type(54) {
+  transition-delay: 5.3s;
+}
+main > div:nth-of-type(55) {
+  transition-delay: 5.4s;
+}
+main > div:nth-of-type(56) {
+  transition-delay: 5.5s;
+}
+main > div:nth-of-type(57) {
+  transition-delay: 5.6s;
+}
+main > div:nth-of-type(58) {
+  transition-delay: 5.7s;
+}
+main > div:nth-of-type(59) {
+  transition-delay: 5.8s;
+}
+main > div:nth-of-type(60) {
+  transition-delay: 5.9s;
+}
+main > div:nth-of-type(61) {
+  transition-delay: 6s;
+}
+main > div:nth-of-type(62) {
+  transition-delay: 6.1s;
+}
+main > div:nth-of-type(63) {
+  transition-delay: 6.2s;
+}
+main > div:nth-of-type(64) {
+  transition-delay: 6.3s;
+}
+main > div:nth-of-type(65) {
+  transition-delay: 6.4s;
+}
+main > div:nth-of-type(66) {
+  transition-delay: 6.5s;
+}
+main > div:nth-of-type(67) {
+  transition-delay: 6.6s;
+}
+main > div:nth-of-type(68) {
+  transition-delay: 6.7s;
+}
+main > div:nth-of-type(69) {
+  transition-delay: 6.8s;
+}
+main > div:nth-of-type(70) {
+  transition-delay: 6.9s;
+}
+main > div:nth-of-type(71) {
+  transition-delay: 7s;
+}
+main > div:nth-of-type(72) {
+  transition-delay: 7.1s;
+}
+main > div:nth-of-type(73) {
+  transition-delay: 7.2s;
+}
+main > div:nth-of-type(74) {
+  transition-delay: 7.3s;
+}
+main > div:nth-of-type(75) {
+  transition-delay: 7.4s;
+}
+main > div:nth-of-type(76) {
+  transition-delay: 7.5s;
+}
+main > div:nth-of-type(77) {
+  transition-delay: 7.6s;
+}
+main > div:nth-of-type(78) {
+  transition-delay: 7.7s;
+}
+main > div:nth-of-type(79) {
+  transition-delay: 7.8s;
+}
+main > div:nth-of-type(80) {
+  transition-delay: 7.9s;
+}
+main > div:nth-of-type(81) {
+  transition-delay: 8s;
+}
+main > div:nth-of-type(82) {
+  transition-delay: 8.1s;
+}
+main > div:nth-of-type(83) {
+  transition-delay: 8.2s;
+}
+main > div:nth-of-type(84) {
+  transition-delay: 8.3s;
+}
+main > div:nth-of-type(85) {
+  transition-delay: 8.4s;
+}
+main > div:nth-of-type(86) {
+  transition-delay: 8.5s;
+}
+main > div:nth-of-type(87) {
+  transition-delay: 8.6s;
+}
+main > div:nth-of-type(88) {
+  transition-delay: 8.7s;
+}
+main > div:nth-of-type(89) {
+  transition-delay: 8.8s;
+}
+main > div:nth-of-type(90) {
+  transition-delay: 8.9s;
+}
+main > div:nth-of-type(91) {
+  transition-delay: 9s;
+}
+main > div:nth-of-type(92) {
+  transition-delay: 9.1s;
+}
+main > div:nth-of-type(93) {
+  transition-delay: 9.2s;
+}
+main > div:nth-of-type(94) {
+  transition-delay: 9.3s;
+}
+main > div:nth-of-type(95) {
+  transition-delay: 9.4s;
+}
+main > div:nth-of-type(96) {
+  transition-delay: 9.5s;
+}
+main > div:nth-of-type(97) {
+  transition-delay: 9.6s;
+}
+main > div:nth-of-type(98) {
+  transition-delay: 9.7s;
+}
+main > div:nth-of-type(99) {
+  transition-delay: 9.8s;
+}
+main > div:nth-of-type(100) {
+  transition-delay: 9.9s;
+}/*# sourceMappingURL=style.css.map */
